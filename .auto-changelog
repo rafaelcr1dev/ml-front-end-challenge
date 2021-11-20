@@ -1,0 +1,15 @@
+{
+  "hideCredit": true,
+  "output": "CHANGELOG.md",
+  "ignoreCommitPattern": "^release-commit",
+  "template": "changelog-template.hbs",
+  "sortCommits": "date-desc",
+  "appendGitLog": "--no-merges",
+  "hideEmptyReleases": true,
+  "replaceText": {
+    "fix(.*):|feat(.*):|refactor(.*):|build(.*):|ci(.*):|revert(.*):|style(.*):|docs(.*):|test(.*):": "",
+    "^chore.+release": "release-commit",
+    "chore(.*):": ""
+  },
+  "commitLimit": false
+}

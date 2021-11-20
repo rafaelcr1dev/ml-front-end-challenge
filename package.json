@@ -8,7 +8,8 @@
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "changelog": "auto-changelog && git add CHANGELOG.md"
   },
   "dependencies": {
     "next": "12.0.4",
@@ -26,6 +27,7 @@
     "@types/react": "^17.0.35",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
+    "auto-changelog": "^2.3.0",
     "babel-jest": "^27.3.1",
     "eslint": "^7.32.0",
     "eslint-config-next": "12.0.4",
