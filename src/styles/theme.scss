@@ -1,0 +1,30 @@
+:root {
+  font-family: "Proxima Nova", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 1.1;
+
+  // Max width
+  --max-width: 980px;
+
+  // Colors
+  --yellow-color: #ffe600;
+  --blue-color: #3483fa;
+  --dark-gray-color: #333;
+  --medium-dark-gray-color: #666;
+  --gray-color: #999;
+  --light-gray-color: #eee;
+
+  // Font sizes
+  --text-size-1: 14px;
+  --text-size-2: 16px;
+  --text-size-3: 18px;
+  --text-size-4: 24px;
+  --text-size-5: 28px;
+  --text-size-6: 46px;
+
+  // Border radius
+  --border-radius: 4px;
+
+  // Spacing
+  --default-spacing: 16px;
+}
