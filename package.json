@@ -9,7 +9,7 @@
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:ci": "jest --coverage",
+    "test:ci": "jest --coverage --passWithNoTests",
     "changelog": "auto-changelog && git add CHANGELOG.md"
   },
   "dependencies": {
