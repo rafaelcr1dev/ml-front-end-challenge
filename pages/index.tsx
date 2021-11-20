@@ -1,6 +1,7 @@
+import React from 'react'
 import Head from 'next/head'
 
-export default function Home () {
+const Home: React.FC = () => {
   return (
     <div>
       <Head>
@@ -9,9 +10,12 @@ export default function Home () {
 
       <main>
         <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to
+          <a href="https://nextjs.org">Next.js!</a>
         </h1>
       </main>
     </div>
   )
 }
+
+export default Home
