@@ -10,8 +10,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "jest --coverage",
-    "changelog": "auto-changelog && git add CHANGELOG.md",
-    "release": "generate-release"
+    "changelog": "auto-changelog && git add CHANGELOG.md"
   },
   "dependencies": {
     "next": "12.0.4",
@@ -46,7 +45,6 @@
     "typescript": "^4.5.2",
     "husky": "^4.2.5",
     "git-commit-msg-linter": "^3.0.4",
-    "lint-staged": "^10.5.4",
-    "generate-release": "^1.1.1"
+    "lint-staged": "^10.5.4"
   }
 }
