@@ -1,0 +1,12 @@
+{
+  "*.tsx": [
+    "eslint 'src/**' --fix",
+    "npm run test:ci",
+    "git add"
+  ],
+  "*.ts": [
+      "eslint 'src/**' --fix",
+      "npm run test:ci",
+      "git add"
+  ]
+}
