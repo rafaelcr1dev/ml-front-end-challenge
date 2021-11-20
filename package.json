@@ -11,7 +11,7 @@
     "test:watch": "jest --watch",
     "test:ci": "jest --coverage",
     "changelog": "auto-changelog && git add CHANGELOG.md",
-    "release": "generate-release -t"
+    "release": "generate-release"
   },
   "dependencies": {
     "next": "12.0.4",
