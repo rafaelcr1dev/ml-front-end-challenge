@@ -69,6 +69,7 @@
         {
           "allowArrowFunction": true
         }
-      ]
+      ],
+      "import/extensions": "off"
     }
 }
