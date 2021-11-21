@@ -1,0 +1,37 @@
+@import "@/styles/mixins.scss";
+
+.shell {
+  display: flex;
+  justify-content: center;
+  background: var(--yellow-color);
+  &__wrapper {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    max-width: var(--max-width);
+
+    h1, div {
+      margin: 0;
+      font-size: 0;
+    }
+  }
+  &__logo {
+    background-image: url(../../../public/images/Logo_ML.png);
+    background-size: 100% 100%;
+    width: 53px;
+    height: 36px;
+    display: block;
+    margin-right: 26px;
+    text-indent: -999px;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+
+    @include media-for-phone {
+      margin-right: 10px;
+    }
+    @include media-for-retina-display {
+      background-image: url(../../../public/images/Logo_ML@2x.png);
+    }
+  }
+}
