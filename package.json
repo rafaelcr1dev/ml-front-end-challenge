@@ -46,6 +46,8 @@
     "typescript": "^4.5.2",
     "husky": "^4.2.5",
     "git-commit-msg-linter": "^3.0.4",
-    "lint-staged": "^10.5.4"
+    "lint-staged": "^10.5.4",
+    "next-router-mock": "^0.5.1",
+    "node-mocks-http": "^1.10.1"
   }
 }
