@@ -4,6 +4,57 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0](https://github.com/rafaelcr1dev/ml-front-end-challenge/compare/0.0.7...0.1.0) - 2021-11-22
+
+
+
+
+
+
+
+
+
+### 🏡 Chore
+
+- fix on package.json [`4137568`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/413756806eff00080ac6917de6c73a5eebfcfc60)
+-  add .coveralls.yml [`1321a49`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/1321a49712f33048874bf915ed65d525b530a7f1)
+
+
+### 📝 Documentation
+
+-  fix code patterns with eslint bash command [`491da14`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/491da144c8b828a79a743b61d97489254958cbfe)
+-  add README.md [`bb1d3d8`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/bb1d3d8dd9ce5c6415a890d813a5c653db5a0118)
+
+
+## [0.0.7](https://github.com/rafaelcr1dev/ml-front-end-challenge/compare/0.0.6...0.0.7) - 2021-11-22
+
+
+
+
+### 🔥 Features
+
+-  0.0.6 [`8f46b20`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/8f46b20cd17adbc8a89a5fa817e4d7d608f4dc2d)
+
+### ♻ Refactors
+
+-  0.0.7 [`43791a9`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/43791a9ad90b77a555482459a220191fa0a4f9f0)
+-  add npm run changelog on lintstage [`703b7eb`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/703b7eb1483c8cdcb9105947015b6cf1e0209422)
+-  change variable names text-size on css and remove files css dont used [`a9a96fb`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/a9a96fb0207d4d8fc0902b0966b79bae0c407a87)
+-  change extension component files index from tsx to ts [`2216038`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/2216038273fccf27480aa697bd91c0c0c5f4a28d)
+-  change extension interfaces files from tsx to ts [`5d9e9c3`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/5d9e9c37220c4caf62235989f111b849497f5594)
+
+
+
+
+### 🏡 Chore
+
+-  add app file preview.gif [`10259fc`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/10259fcaeef816bbd47be124af766d19e0ab20ed)
+-  add travis ci and caveralls [`2ba666e`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/2ba666e87f7af3fa49a5cd1c2f3e3b36a2169d43)
+-  add CHANGELOG file [`8e63dca`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/8e63dcaaae4555abbe68979998857ea2995277fc)
+
+
+
+
 ## [0.0.6](https://github.com/rafaelcr1dev/ml-front-end-challenge/compare/0.0.5...0.0.6) - 2021-11-22
 
 
