@@ -10,6 +10,11 @@ module.exports = {
   testEnvironment: 'jsdom',
   collectCoverageFrom: [
     '<rootDir>/src/components/**/*.tsx',
+    '<rootDir>/src/pages/api/**/*.tsx',
+    '<rootDir>/src/helpers/**/*.ts',
+    '<rootDir>/src/serializes/**/.ts',
+    '!<rootDir>/src/serializes/index.ts',
+    '!<rootDir>/src/helpers/index.ts',
     '!<rootDir>/src/components/**/index.tsx',
   ],
 };
