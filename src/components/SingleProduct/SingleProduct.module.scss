@@ -1,0 +1,79 @@
+@import "@/styles/mixins.scss";
+
+.shell {
+  background: #fff;
+  padding: calc(var(--default-spacing) * 2);
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  &__image {
+    width: 68%;
+    text-align: center;
+    @include media-for-tablet {
+      width: 100%;
+    }
+    img {
+      max-width: 100%;
+      max-height: 500px;
+      border-radius: var(--border-radius);
+      @include media-for-tablet {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  &__details {
+    display: flex;
+    justify-content: space-between;
+    color: var(--dark-gray-color);
+    margin: 0 0 calc(var(--default-spacing) * 2) 0;
+    @include media-for-tablet {
+      flex-wrap: wrap;
+    }
+  }
+  &__info {
+    width: 27%;
+    @include media-for-tablet {
+      width: 100%;
+      margin-top: calc(var(--default-spacing) * 2);
+    }
+  }
+  &__condition {
+    font-size: var(--text-size-1);
+    color: var(--medium-dark-gray-color);
+    margin: 0 0 var(--default-spacing) 0;
+    display: block;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+  &__name {
+    margin: 0;
+    font-size: var(--text-size-4);
+    font-weight: bold;
+  }
+  &__price {
+    font-size: var(--text-size-6);
+    margin: calc(var(--default-spacing) * 2) 0;
+    sup {
+      font-size: var(--text-size-6);
+      top: -1rem;
+      display: inline-block;
+      margin: 0 0 0 3px;
+    }
+  }
+  &__buy-button {
+    width: 247px;
+    height: 44px;
+    background: var(--blue-color);
+    font-size: var(--text-size-3);
+    color: #fff;
+    display: block;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    @include media-for-desktop {
+      width: 100%;
+    }
+  }
+}
