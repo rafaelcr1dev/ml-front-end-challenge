@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   return (
     <header className={styles.shell}>
       <div className={styles.shell__wrapper}>
-        <LogoContent>
+        <LogoContent data-testid="logo">
           <Link href="/" passHref>
             <a
               className={styles.shell__logo}
