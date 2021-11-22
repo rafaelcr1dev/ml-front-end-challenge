@@ -2,12 +2,12 @@
 .shell {
   &__title {
     margin: 0 0 calc(var(--default-spacing) * 2) 0;
-    font-size: var(--text-size-4);
+    font-size: var(--text-size-6);
     color: var(--dark-gray-color);
     font-weight: 400;
   }
   &__description  {
-    font-size: var(--text-size-2);
+    font-size: var(--text-size-3);
     color: var(--medium-dark-gray-color);
     margin: 0;
     line-height: 18px;

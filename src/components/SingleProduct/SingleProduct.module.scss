@@ -25,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     color: var(--dark-gray-color);
-    margin: 0 0 calc(var(--default-spacing) * 2) 0;
+    margin: 0 0 calc(var(--default-spacing) * 4) 0;
     @include media-for-tablet {
       flex-wrap: wrap;
     }
@@ -38,7 +38,7 @@
     }
   }
   &__condition {
-    font-size: var(--text-size-1);
+    font-size: var(--text-size-2);
     color: var(--medium-dark-gray-color);
     margin: 0 0 var(--default-spacing) 0;
     display: block;
@@ -48,14 +48,14 @@
   }
   &__name {
     margin: 0;
-    font-size: var(--text-size-4);
+    font-size: var(--text-size-5);
     font-weight: bold;
   }
   &__price {
-    font-size: var(--text-size-6);
+    font-size: var(--text-size-7);
     margin: calc(var(--default-spacing) * 2) 0;
     sup {
-      font-size: var(--text-size-6);
+      font-size: var(--text-size-4);
       top: -1rem;
       display: inline-block;
       margin: 0 0 0 3px;
@@ -65,7 +65,7 @@
     width: 247px;
     height: 44px;
     background: var(--blue-color);
-    font-size: var(--text-size-3);
+    font-size: var(--text-size-4);
     color: #fff;
     display: block;
     line-height: 44px;

@@ -5,9 +5,20 @@
   justify-content: center;
   &__wrapper {
     display: flex;
-    padding: 0px 10px;
     width: 100%;
     max-width: var(--max-width);
     flex-direction: column;
+
+    @include media-for-tablet {
+      padding: 0px var(--default-spacing);
+    }
+
+    @include media-for-phone {
+      padding: 0px var(--default-spacing);
+    }
+
+    @include media-for-retina-display {
+      padding: 0px var(--default-spacing);
+    }
   }
 }

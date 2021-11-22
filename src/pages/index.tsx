@@ -5,7 +5,7 @@ import Container from '@/components/Container'
 const Home: React.FC<AppProps> = () => {
   return (
     <Container>
-      <h1>Mercado libre</h1>
+      <div></div>
     </Container>
   )
 }

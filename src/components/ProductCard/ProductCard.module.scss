@@ -41,17 +41,17 @@
     }
   }
   &__price {
-    font-size: var(--text-size-4);
+    font-size: var(--text-size-5);
     color: var(--dark-gray-color);
     margin: var(--default-spacing) 0 calc(var(--default-spacing) * 2) 0;
     sup {
-      font-size: var(--text-size-6);
+      font-size: var(--text-size-2);
       display: inline-block;
       margin: 0 0 0 3px;
     }
   }
   &__name {
-    font-size: var(--text-size-3);
+    font-size: var(--text-size-4);
     color: var(--dark-gray-color);
     margin: 0;
     font-weight: 400;
@@ -60,7 +60,7 @@
   &__state {
     display: flex;
     justify-content: flex-end;
-    font-size: var(--text-size-0);
+    font-size: var(--text-size-1);
     color: var(--medium-dark-gray-color);
     flex: 0 100%;
     margin: var(--default-spacing) calc(var(--default-spacing) * 2) 0 0;
