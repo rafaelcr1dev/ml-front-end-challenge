@@ -1,34 +1,123 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![alt text](https://github.com/rafaelcr1dev/ml-front-end-challenge/blob/master/public/images/Logo_ML%402x.png?raw=true)
 
-## Getting Started
+# Front End Technical Challenge
 
-First, run the development server:
+![alt text](https://github.com/rafaelcr1dev/ml-front-end-challenge/blob/master/github/images/preview.gif?raw=true)
+
+## 🛠 Development tools
+
+In this project I'm using [Next.js](https://nextjs.org/), created by Vercel which allows features such as server-side rendering and static site generation for [ReactJS](https://reactjs.org/) based web applications
+
+  - [Fetch](https://www.npmjs.com/package/fetch): To fetch http requests and manage reponses.
+  - [SCCS](https://sass-lang.com/guide): To allow nesting CSS and others.
+ - [Typescript](https://www.typescriptlang.org/): Syntactic superset of JavaScript and adds optional static typing to the language.
+  - [BEM Methology](http://getbem.com/introduction/): Style methodology (block, element, modifier).
+  - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/): To get utilities like getByTestId to get element with "data-testid". This turn the tests more easy in components.
+  - [Jest](https://jestjs.io/docs/getting-started): To allow/run tests on other files with or without the need for react-testing-library.
+
+## Folder structure
+
+Below is the project folder structure which is located within the ./src directory
+
+  - **📁 src/__ mocks__/** (Mocks for API or others)
+  - **📁 src/api/** (API Client with endpoints and functions that return promises)
+  - **📁 src/components/** (Application components with the base files in each component like styles and tests)
+  - **📁 src/config/** (General project settings files)
+  - **📁 src/helpers/** (Methods helpers)
+  - **📁 src/interfaces/** (Typescript interfaces for responses)
+  - **📁 src/pages/** (Pages and API Routes)
+  - **📁 src/serializes/** (Methods for handling response data from APIs)
+  - **📁 src/styles/** (Font styles, globals, mixins, normalize and theme settings)
+
+## Requirements
+
+  - [Node v14+ (LTS)](https://nodejs.org/en/)
+  - [yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/)
+
+## Install dependencies
+
+Open your terminal and type
 
 ```bash
-npm run dev
-# or
-yarn dev
+## If you use yarn:
+yarn
+## Else you use npm:
+npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open your terminal and type
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+## If you use yarn:
+yarn dev
+## Else you use npm:
+npm run dev
+```
+Your application is running on http://localhost:3000/, open your browser to see.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Tests
 
-## Learn More
+Run the command below to test your production code
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+yarn test ## or npm run test
+```
+Run the command below to see the production code testing coverage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn test:ci ## or npm run test:ci
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Code patterns
 
-## Deploy on Vercel
+In this project, Prettier is being used to help format the code and Eslint to check and correct possible syntax errors.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+eslint 'src/**/*.{tsx,ts}' --fix
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Conventional Commits
+
+In this project it is being [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit patterns.
+
+```bash
+## Examples git commit -m
+"feat: Add new feature"
+"docs: Add new documentation"
+"fix: Fix interface types"
+"chore: Add new libs and configuration of development"
+```
+
+## Generate CHANGELOG.md
+
+
+Corresponds to a list containing the record of all changes made to a system
+
+```bash
+yarn changelog  ## or npm run changelog
+```
+
+## Build application
+
+Next will build to application.
+
+```bash
+yarn build ## or npm run build
+```
+
+## Deployed on Vercel
+
+https://ml-front-end-challenge.vercel.app
+
+## Observation
+
+- It was not necessary to use Express because Next.js was used.
+- I would have liked to have used Travis CI to do the continuous integration, but it was not possible because now Travis asks for Credit Cards even in its Free version and at the moment I don't have Credit Cards.
+
+## Author
+
+- **Rafael Cruz** - *Initial work* - [Linkedin](https://www.linkedin.com/in/rafaelcr1/)
+
+### Thanks for the interview and technical test, I hope to be part of the [Mercado Livre](https://www.mercadolivre.com.br) team. 😀
