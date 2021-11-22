@@ -1,0 +1,7 @@
+@import "@/styles/mixins.scss";
+
+.shell {
+  background: #fff;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
