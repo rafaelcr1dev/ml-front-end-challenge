@@ -75,7 +75,7 @@ yarn test:ci ## or npm run test:ci
 In this project, Prettier is being used to help format the code and Eslint to check and correct possible syntax errors.
 
 ```bash
-eslint 'src/**/*.{tsx,ts}' --fix
+yarn eslint:fix ## or npm run eslint:fix
 ```
 
 ## Conventional Commits
