@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0](https://github.com/rafaelcr1dev/ml-front-end-challenge/compare/0.1.0...0.2.0) - 2021-11-22
+
+
+
+
+
+### ♻ Refactors
+
+-  0.2.0 [`f4b0e97`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/f4b0e97d2ce6d54bab0f850d8bcc0749359756fc)
+-  add progress bar [`183ae6d`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/183ae6d725bab8c62128c1120b34869126425003)
+
+
+
+
+
+
+### 📝 Documentation
+
+-  0.1.0 [`2993d6a`](https://github.com/rafaelcr1dev/ml-front-end-challenge/commit/2993d6a200e219987eb0a41488f14caade697576)
+
+
 ## [0.1.0](https://github.com/rafaelcr1dev/ml-front-end-challenge/compare/0.0.7...0.1.0) - 2021-11-22
 
 

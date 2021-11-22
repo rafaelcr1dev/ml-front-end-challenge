@@ -1,4 +1,5 @@
 import '../styles/globals.scss'
+import '../styles/libs/nprogress.css'
 
 import React, { useEffect } from 'react'
 import { AppProps } from 'next/app'
@@ -6,7 +7,6 @@ import Head from 'next/head'
 import NProgress from 'nprogress'
 
 import { useRouter } from 'next/router'
-import '../../public/css/nprogress.css'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   const router = useRouter()
