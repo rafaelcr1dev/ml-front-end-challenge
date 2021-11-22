@@ -70,6 +70,9 @@
           "allowArrowFunction": true
         }
       ],
-      "import/extensions": "off"
+      "import/extensions": "off",
+      "multiline-ternary": "off",
+      "import/no-anonymous-default-export": "off",
+      "no-sequences": "off"
     }
 }
