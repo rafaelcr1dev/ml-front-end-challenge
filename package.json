@@ -10,6 +10,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "jest --coverage --passWithNoTests",
+    "test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info",
     "changelog": "auto-changelog && git add CHANGELOG.md"
   },
   "dependencies": {
