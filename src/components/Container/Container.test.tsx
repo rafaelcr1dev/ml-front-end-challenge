@@ -1,17 +1,17 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 import * as nextRouter from 'next/router'
-import Container from '@/components/Container'
+import Content from '@/components/Content'
 ;(nextRouter.useRouter as any) = jest
   .fn()
   .mockImplementation(() => ({ pathname: '/' }))
 
-describe('Container Component', () => {
+describe('Content Component', () => {
   it('should have a children on component', () => {
     const { getByText } = render(
-      <Container>
+      <Content>
         <div>Hello world</div>
-      </Container>
+      </Content>
     )
     expect(getByText(/Hello world/i)).toBeInTheDocument()
   })
