@@ -1,5 +1,7 @@
 ![alt text](https://github.com/rafaelcr1dev/ml-front-end-challenge/blob/master/public/images/Logo_ML%402x.png?raw=true)
 
+![CI](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/ci.yml/badge.svg)
+
 # Front End Technical Challenge
 
 ![alt text](https://github.com/rafaelcr1dev/ml-front-end-challenge/blob/master/github/images/preview.gif?raw=true)
