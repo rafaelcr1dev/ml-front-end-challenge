@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1641850121642" clover="3.2.0">
+  <project timestamp="1641850121642" name="All files">
+    <metrics statements="74" coveredstatements="73" conditionals="32" coveredconditionals="30" methods="24" coveredmethods="24" elements="130" coveredelements="127" complexity="0" loc="74" ncloc="74" packages="15" files="15" classes="15"/>
+    <package name="components.BreadCrumb">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="BreadCrumb.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\BreadCrumb\BreadCrumb.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Container">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Container.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\Container\Container.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Content">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Content.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\Content\Content.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Feedback">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Feedback.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\Feedback\Feedback.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Header">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Header.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\Header\Header.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ProductCard">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="ProductCard.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\ProductCard\ProductCard.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ProductDescription">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ProductDescription.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\ProductDescription\ProductDescription.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ProductImage">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ProductImage.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\ProductImage\ProductImage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ProductList">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ProductList.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\ProductList\ProductList.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ProductName">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="ProductName.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\ProductName\ProductName.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="12" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ProductPrice">
+      <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="ProductPrice.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\ProductPrice\ProductPrice.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="13" type="stmt"/>
+        <line num="14" count="26" type="stmt"/>
+        <line num="17" count="26" type="stmt"/>
+        <line num="22" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="43" count="26" type="stmt"/>
+        <line num="46" count="13" type="stmt"/>
+        <line num="62" count="26" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.SearchField">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="SearchField.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\SearchField\SearchField.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.SingleProduct">
+      <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <file name="SingleProduct.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\components\SingleProduct\SingleProduct.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="helpers">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="getCategoryWithOccurrences.ts" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\helpers\getCategoryWithOccurrences.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="pages.api.items">
+      <metrics statements="16" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="index.tsx" path="C:\Users\rafae\Desktop\projetos\github\ml-front-end-challenge\src\pages\api\items\index.tsx">
+        <metrics statements="16" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
