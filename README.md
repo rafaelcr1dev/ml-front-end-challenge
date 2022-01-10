@@ -120,4 +120,4 @@ https://ml-front-end-challenge.vercel.app
 
 - **Rafael Cruz** - *Initial work* - [Linkedin](https://www.linkedin.com/in/rafaelcr1/)
 
-### Thanks for the interview and technical test, I hope to be part of the [Mercado Livre](https://www.mercadolivre.com.br) team. 😀
+### Thanks for the interview and technical test, I hope to be part of the [Mercado Livre](https://www.mercadolivre.com.br) team. Thanks 😀
