@@ -14,7 +14,7 @@
     "changelog": "auto-changelog && git add CHANGELOG.md",
     "eslint:fix": "eslint src/**/*.{tsx,ts} --fix",
     "lint:watch": "eslint src/**/*.{tsx,ts}",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "http-status-codes": "^2.1.4",
