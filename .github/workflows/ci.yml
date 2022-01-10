@@ -21,3 +21,6 @@ jobs:
 
       - name: Test
         run: yarn test --coverage
+
+      - name: Check linting
+        run: yarn lint
