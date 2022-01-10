@@ -1,6 +1,7 @@
 ![alt text](https://github.com/rafaelcr1dev/ml-front-end-challenge/blob/master/public/images/Logo_ML%402x.png?raw=true)
 
 ![Tests](https://github.com/rafaelcr1dev/ml-front-end-challenge/actions/workflows/ci.yml/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/rafaelcr1dev/ml-front-end-challenge/badge.svg)](https://coveralls.io/github/rafaelcr1dev/ml-front-end-challenge)
 
 # Front End Technical Challenge
 
