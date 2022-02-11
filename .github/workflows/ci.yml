@@ -25,7 +25,7 @@ jobs:
       - name: Check linting
         run: yarn lint:watch
 
-      - name: Coveralls GitHub Action
+      - name: Coveralls GitHub Actions
         uses: coverallsapp/github-action@1.1.3
         with:
           github-token: ${{ github.token }}
