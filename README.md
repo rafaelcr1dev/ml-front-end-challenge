@@ -2,7 +2,7 @@
 
 
 ![Tests](https://github.com/rafaelcr1dev/ml-front-end-challenge/actions/workflows/ci.yml/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/rafaelcr1dev/ml-front-end-challenge/badge.svg)](https://coveralls.io/github/rafaelcr1dev/ml-front-end-challenge)
+[![Coverage Status](https://coveralls.io/repos/github/rafaelcr1dev/ml-front-end-challenge/badge.svg?branch=master)](https://coveralls.io/github/rafaelcr1dev/ml-front-end-challenge?branch=master)
 
 # Front End Technical Challenge
 
