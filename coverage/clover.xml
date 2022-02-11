@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1641850121642" clover="3.2.0">
-  <project timestamp="1641850121642" name="All files">
+<coverage generated="1644553298836" clover="3.2.0">
+  <project timestamp="1644553298837" name="All files">
     <metrics statements="74" coveredstatements="73" conditionals="32" coveredconditionals="30" methods="24" coveredmethods="24" elements="130" coveredelements="127" complexity="0" loc="74" ncloc="74" packages="15" files="15" classes="15"/>
     <package name="components.BreadCrumb">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
